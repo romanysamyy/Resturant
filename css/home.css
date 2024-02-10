@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body {
+    background-color: #F7F7F7;
+}
+
+.top-header {
+    background-color: #FBFBFC;
+    text-align: center;
+    padding-top: 30px;
+    height: 25vh;
+}
+
+.h2-top {
+    color: #2F2F2F;
+    font-weight: 100;
+}
+
+header {
+    /* position: fixed; */
+    position: sticky;
+    top: -1px;
+    z-index: 9999;
+    width: 100%;
+}
+
+.dropdown-item {
+    padding: 20PX;
+}
+
+.navbar-nav .nav-item .nav-link:focus,
+.navbar-nav .nav-item .nav-link:hover {
+    color: orange;
+}
+
+.navbar-nav .nav-item {
+    color: black;
+}
+
+@keyframes sticky-slide-down {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+#over {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../project/image/WhatsApp\ Image\ 2023-11-06\ at\ 10.16.30\ AM.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: brightness(0.8); */
+}
+
+#over::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #6B6B6B66;
+    z-index: 8;
+}
+
+.z-in {
+    position: relative;
+    z-index: 999;
+}
+
+.h1-overlay {
+    color: #ffff;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 96px;
+    letter-spacing: 0em;
+    margin-top: 30vh;
+}
+
+.h2-overlay {
+    height: 90px;
+    text-align: center;
+    color: #ffff;
+}
+
+.center-header {
+    text-align: center;
+}
+
+.button {
+    background-color: #FF7A00;
+    color: #ffff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 57.81px;
+    border: 1px solid white;
+}
+
+.button:hover {
+    color: #FBFBFC;
+}
+
+.img-MENU img {
+    width: 50%;
+    height: 100%;
+}
+
+.img-MENU {
+    text-align: center;
+}
+
+.h1-MENU {
+    color: black;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 96px;
+    letter-spacing: 0em;
+}
+
+.h2-MENU {
+    color: black;
+    margin-top: 20px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.line {
+    background: #FF7A00;
+    opacity: 1;
+    width: 100px;
+    height: 3px !important;
+    display: inline-block;
+}
+
+.p-MENU {
+    text-align: center;
+}
+
+.btn-MENU {
+    text-align: center;
+}
+
+.button-MENU {
+    color: #FF7A00;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 166.81px;
+    border: 1px solid #FF7A00;
+}
+
+.button-MENU:hover {
+    color: #FF7A00;
+}
+
+.vl-MENU {
+    text-align: center;
+}
+
+.line-mune {
+    border-left: 2px solid #FF7A00;
+    opacity: 1;
+    height: 154px !important;
+    display: inline-block;
+}
+
+.h1-our {
+    line-height: 69.5px;
+}
+
+.h2-our,
+.span-our,
+.hr-our {
+    display: inline-block;
+}
+
+.hr-our {
+    width: 20px;
+    margin-bottom: 11px;
+    color: #000000;
+}
+
+.h2-our {
+    font-size: 40px;
+    line-height: 57.92px;
+}
+
+.span-our {
+    color: #000000A6;
+    font-size: 35px;
+}
+
+.img-our img {
+    width: 100%;
+    height: 100%;
+}
+
+.vl-our {
+    text-align: center;
+}
+
+.line-our {
+    border-left: 2px solid #FF7A00;
+    opacity: 1;
+    height: 154px !important;
+    display: inline-block;
+}
+
+.star-icon {
+    display: inline-block;
+    color: #E1BD00;
+    font-size: 44px;
+    text-align: center;
+}
+
+.p-MENU-STR {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 33px;
+    color: #BD5B00;
+}
+
+.h1-MENU-STAR {
+    color: black;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 96px;
+    letter-spacing: 0em;
+}
+
+.h1-content {
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 96px;
+    letter-spacing: 0em;
+}
+
+footer {
+    background-image: url(../project/image/WhatsApp\ Image\ 2023-11-06\ at\ 10.20.53\ AM.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    /* height: 100vh; */
+}
+
+.img-footer,
+.h2-footer,
+.p-footer,
+.h1-footer,
+.h3-footer,
+.h4-footer,
+.social {
+    text-align: center;
+}
+
+.h2-footer {
+    color: #2F2F2F;
+    font-weight: 100;
+}
+
+.p-footer {
+    font-size: 24px;
+    line-height: 34.75px;
+    color: #000000;
+}
+
+.h1-footer {
+    color: #FF7A00;
+}
+
+.h3-footer {
+    font-size: 24px;
+    line-height: 34.75px;
+    color: #000000;
+}
+
+.h4-footer {
+    font-size: 24px;
+    line-height: 34.75px;
+    color: #000000;
+}
+
+.facebook,
+.instagram,
+.tiktok {
+    background-color: #2F2F2F;
+    color: #000000;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.facebook:hover {
+    background-color: #0866FF;
+    color: #ffff;
+}
+
+.instagram:hover {
+    background: linear-gradient(45deg, #F601B6, #A607E9, #F7BF02);
+    color: #ffff;
+}
+
+.tiktok:hover {
+    background: linear-gradient(45deg, #68C9D0, #FFFFFF, #EE1E52);
+    /* color: #ffff; */
+}
+
+@media only screen and (max-width: 1200px) {
+    .h2-our {
+        font-size: 39px;
+        line-height: 57.92px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .h2-our {
+        font-size: 36px;
+        line-height: 57.92px;
+    }
+
+    .hr-our {
+        width: 13px;
+        margin-bottom: 11px;
+        color: #000000;
+    }
+
+    .h2-our {
+        font-size: 33px;
+        line-height: 57.92px;
+    }
+
+    .hr-our {
+        width: 11px;
+        margin-bottom: 11px;
+        color: #000000;
+    }
+
+    .h2-our {
+        font-size: 31px;
+        line-height: 57.92px;
+    }
+
+    .hr-our {
+        width: 10px;
+        margin-bottom: 11px;
+        color: #000000;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .h2-our {
+        font-size: 34px;
+        line-height: 57.92px;
+    }
+
+    .hr-our {
+        width: 15px;
+        margin-bottom: 11px;
+        color: #000000;
+    }
+
+    .h2-our {
+        font-size: 32px;
+        line-height: 57.92px;
+    }
+
+    .hr-our {
+        width: 12px;
+        margin-bottom: 11px;
+        color: #000000;
+    }
+
+    .h2-our {
+        font-size: 31px;
+        line-height: 57.92px;
+    }
+
+    .h2-our {
+        font-size: 29px;
+        line-height: 57.92px;
+    }
+
+    .hr-our {
+        width: 11px;
+        margin-bottom: 11px;
+        color: #000000;
+    }
+}
+
+@media only screen and (max-width: 600px) {}
+
+@media only screen and (max-width: 425px) {
+    .h2-our {
+        font-size: 26px;
+        line-height: 57.92px;
+    }
+
+    .hr-our {
+        width: 10px;
+        margin-bottom: 11px;
+        color: #000000;
+    }
+
+    .span-our {
+        color: #000000A6;
+        font-size: 27px;
+    }
+
+    .h2-our {
+        font-size: 24px;
+        line-height: 57.92px;
+    }
+
+    .hr-our {
+        width: 7px;
+        margin-bottom: 11px;
+        color: #000000;
+    }
+
+    .h2-our {
+        font-size: 23px;
+        line-height: 57.92px;
+    }
+}
+
+@media only screen and (max-width: 325px) {
+    .img-top img {
+        width: 100%;
+    }
+
+    .h2-overlay {
+        height: 90px;
+        text-align: center;
+        color: #ffff;
+        font-size: 15px;
+    }
+
+    .h1-MENU {
+        color: black;
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        font-size: 45px;
+        font-weight: 400;
+        line-height: 96px;
+        letter-spacing: 0em;
+    }
+
+    .star-icon {
+        display: inline-block;
+        color: #E1BD00;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .img-footer img {
+        width: 100%;
+    }
+
+    .h2-our {
+        font-size: 21px;
+        line-height: 57.92px;
+    }
+
+    .hr-our {
+        width: 4px;
+        margin-bottom: 8px;
+        color: #000000;
+    }
+
+    .h2-our {
+        font-size: 19px;
+        line-height: 57.92px;
+    }
+
+    .hr-our {
+        width: 2px;
+        margin-bottom: 8px;
+        color: #000000;
+    }
+
+    .span-our {
+        color: #000000A6;
+        font-size: 22px;
+    }
+}

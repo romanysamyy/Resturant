@@ -1,0 +1,32 @@
+.h1 {
+    color: black;
+    margin-top: 20vh;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    line-height: 48px;
+}
+
+.h2 {
+    color: black;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+.h3 {
+    color: black;
+    height: 90px;
+    text-align: center;
+    margin-top: 20vh;
+}
+.centered {
+    text-align: center;
+    margin-top: 12vh;
+}
+
+.line {
+    background: #FF7A00;
+    opacity: 1;
+    width: 100px;
+    height: 3px !important;
+    display: inline-block;
+}

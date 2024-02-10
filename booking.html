@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="css/Menu.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/booking.css" />
+    <title>Booking</title>
+</head>
+
+<body>
+    <div class="top-header">
+        <div class="container">
+            <div class="row">
+                <div class="img-top">
+                    <img src="project/image/WhatsApp Image 2023-11-06 at 10.16.23 AM.jpeg" alt="" />
+                    <h2 class="h2-top">Restaurant</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Home.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="Menu.html">MENU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="GALLERY.html">GALLERY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">ONLINE BOOKING</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                CONTACT US
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="#">BANQUET FACILITY</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">MUNU KIT</a></li>
+                                <li><a class="dropdown-item" href="#">VISITING HOURS</a></li>
+                                <li><a class="dropdown-item" href="#">CATERING</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="h1">book your placre online</h1>
+                    <h3 class="h3">now you can book your table online</h3>
+                    <p class="p-booking">
+                        Morem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                        vulputate libero et velit interdum, ac aliquet odio mattis. Class
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="wrapper">
+                        <div id="left">
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </div>
+                        <div class="carousel">
+                            <img src="project/Restaurant/1.jpg" alt="" />
+                            <img src="project/Restaurant/2.jpg" alt="" />
+                            <img src="project/Restaurant/3.jpg" alt="" />
+                            <img src="project/Restaurant/4.jpg" alt="" />
+                            <img src="project/Restaurant/5.jpg" alt="" />
+                            <img src="project/Restaurant/6.jpg" alt="" />
+                            <img src="project/Restaurant/7.jpg" alt="" />
+                            <img src="project/Restaurant/8.jpg" alt="" />
+                            <img src="project/Restaurant/9.jpg" alt="" />
+                            <img src="project/Restaurant/10.jpg" alt="" />
+                            <img src="project/Restaurant/11.jpg" alt="" />
+                        </div>
+                        <div id="right">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <p class="p-text mb-4"> Book A Table Now , Come And See Us </p>
+                <form class="mb-5">
+                    <div class="flex-column">
+                        <label class="label" for="name">Name</label>
+                        <input class="input" type="text" id="name">
+                    </div>
+                    <div class="flex-column">
+                        <label  class="label" for="numberOfPeople">Number of people</label>
+                        <input class="input" type="number" min="1" id="numberOfPeople">
+                    </div>
+                    <div class="flex-row">
+                        <div class="flex-column">
+                            <label  class="label" for="time">Time</label>
+                            <input class="input" type="time" id="time">
+                        </div>
+                        <div class="flex-column">
+                            <label  class="label" for="date">Date</label>
+                            <input class="input" type="date" id="date">
+                        </div>
+                    </div>
+                    <div class="flex-column">
+                        <label  class="label" for="anySpecialRequests">Any special requests</label>
+                        <input class="input" type="text" id="anySpecialRequests">
+                    </div>
+                    <div class="flex-column">
+                        <div class="flex-row">
+                            <div class="row">
+
+                                <div class="col-md-9">
+                                    <label class="label-radio" for="orderYourFoodEarlier">Order your food earliers</label>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <input value="orderYourFoodEarlier" class="radio float-end" checked="checked" type="radio" id="orderYourFoodEarlier" name="order">
+                                </div>
+
+
+                                <div class="col-md-9">
+                                    <label class="label-radio" for="orderYourFoodInThePlace">Order your food in the place</label>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <input value="orderYourFoodInThePlace" class="radio float-end" type="radio" id="orderYourFoodInThePlace" name="order">
+                                </div>
+
+                            </div>
+                           
+                        </div>
+                        <div class="flex-row">
+                           
+                        </div>
+                    </div>
+                </form>
+                <button class="button" id="Reserve">Reserve</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="img-footer mt-5">
+                    <img src="project/image/WhatsApp Image 2023-11-06 at 10.16.23 AM.jpeg" alt="" />
+                </div>
+                <div class="center">
+                    <h2 class="h2-footer">Restaurant</h2>
+                    <p class="p-footer mt-3">You Can Reach Us At</p>
+                    <h1 class="h1-footer">+92513 2162 3151</h1>
+                    <h3 class="h3-footer mt-5">Adress</h3>
+                    <h4 class="h4-footer">miami, gorgaa ,USA</h4>
+                </div>
+                <div class="social">
+                    <a href="#"><i class="facebook fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="instagram fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="tiktok fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/Booking.js"></script>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
